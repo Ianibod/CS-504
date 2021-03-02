@@ -4,6 +4,12 @@ public abstract class Warrior {
 	private int attack;
 	private int defense;
 
+	Warrior(int level, int attack, int defense) {
+		this.level = level;
+		this.attack = attack;
+		this.defense = defense;
+	}
+
 	public int getLevel() {
 		return level;
 	}
